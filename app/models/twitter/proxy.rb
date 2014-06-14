@@ -1,9 +1,9 @@
 module Twitter
-  class Adapter
-    attr_reader :client
+  class Proxy
+    attr_reader :twitter_client
 
     def initialize
-      @client = ::Twitter::REST::Client.new do |config|
+      @twitter_client = ::Twitter::REST::Client.new do |config|
         config.consumer_key = ENV['TWITTER_CONSUMER_KEY']
         config.consumer_secret = ENV['TWITTER_CONSUMER_SECRET']
         config.access_token = ENV['TWITTER_ACCESS_TOKEN']

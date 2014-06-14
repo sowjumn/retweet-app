@@ -3,7 +3,7 @@ module Twitter
     attr_reader :retweet_ids, :client
 
     def initialize
-      @client = Adapter.new.client
+      @client = Proxy.new.twitter_client
     end
 
     def perform

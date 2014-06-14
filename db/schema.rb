@@ -17,7 +17,9 @@ ActiveRecord::Schema.define(version: 20140316072502) do
   enable_extension "plpgsql"
 
   create_table "retweets", force: true do |t|
-    t.string "tweet"
+    t.string   "tweet"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
