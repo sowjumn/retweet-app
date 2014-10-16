@@ -10,7 +10,5 @@
  *
  *= require_self
  *= require reset
- *= require grid
- *= require site
- *= require grid
+ *= require bootstrap
  */

@@ -1,2 +1,7 @@
-<div class="main-container">
+<div class="container">
+  <% @retweets.each do |retweet| %>
+    <div class="row">
+      <%= retweet.tweet %>
+    </div>
+  <% end %>
 </div>

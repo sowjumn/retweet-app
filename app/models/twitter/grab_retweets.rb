@@ -12,7 +12,7 @@ module Twitter
     end
 
     def get_retweet_ids
-      @retweet_ids ||= client.retweeted_by_me({:count => 1000})
+      @retweet_ids ||= client.retweeted_by_me({:count => 2000})
     end
 
     def save_retweets_to_database
