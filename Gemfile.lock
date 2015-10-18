@@ -91,6 +91,7 @@ GEM
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
     pg (0.17.1)
+    puma (2.14.0)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -198,6 +199,7 @@ DEPENDENCIES
   factory_girl_rails
   jquery-rails
   pg
+  puma
   rails (= 4.1.8)
   rails_12factor
   resque

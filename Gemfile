@@ -8,6 +8,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'resque'
 gem 'twitter'
+gem 'puma'
 
 group :development, :test do
   gem 'dotenv-rails'

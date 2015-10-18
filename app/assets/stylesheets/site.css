@@ -1,0 +1,7 @@
+.container:focus {
+  outline: thick solid black;
+}
+
+a:focus {
+  color: green;
+}
