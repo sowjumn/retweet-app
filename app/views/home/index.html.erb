@@ -1,7 +1,5 @@
-<div class="container" role="main" tabindex=0 >
-  <% @retweets.each do |retweet| %>
-    <div class="row">
-      <a href=""><%= retweet.tweet %></a>
-    </div>
-  <% end %>
-</div>
+<% @retweets.each do |retweet| %>
+  <article class="row">
+    <a href=""><%= retweet.tweet %></a>
+  </article>
+<% end %>
